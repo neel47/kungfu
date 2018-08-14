@@ -1,0 +1,130 @@
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition"
+		template="/WEB-INF/views/layout.jsp">
+		<put-attribute name="title" value="KungFu System" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="base.Login.definition"
+		template="/WEB-INF/views/fullLayout.jsp">
+		<put-attribute name="title" value="KungFu" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="login" extends="base.Login.definition">
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="startPage" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/startPage.jsp" />
+	</definition>
+	
+	<definition name="dashBoard" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/startPage.jsp" />
+	</definition>
+	
+	<definition name="instructorForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InstructorForm.jsp" />
+	</definition>
+	
+	<definition name="instructorList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InstructorList.jsp" />
+	</definition>
+	
+	<definition name="studentForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/StudentForm.jsp" />
+	</definition>
+	
+	<definition name="studentList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/StudentList.jsp" />
+	</definition>
+	
+	<definition name="parentForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ParentForm.jsp" />
+	</definition>
+	
+	<definition name="parentList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ParentList.jsp" />
+	</definition>
+	
+	<definition name="productForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ProductForm.jsp" />
+	</definition>
+	
+	<definition name="productList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ProductList.jsp" />
+	</definition>
+	
+	<definition name="transactionForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TransactionForm.jsp" />
+	</definition>
+	
+	<definition name="transactionList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TransactionList.jsp" />
+	</definition>
+	
+	<definition name="rankForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/RankForm.jsp" />
+	</definition>
+	
+	<definition name="rankList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/RankList.jsp" />
+	</definition>
+	
+	<definition name="performanceForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/PerformanceForm.jsp" />
+	</definition>
+	
+	<definition name="performanceList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/PerformanceList.jsp" />
+	</definition>
+	
+	<definition name="courseLevelForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseLevelForm.jsp" />
+	</definition>
+	
+	<definition name="courseLevelList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseLevelList.jsp" />
+	</definition>
+	
+	<definition name="courseForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseForm.jsp" />
+	</definition>
+	
+	<definition name="courseList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseList.jsp" />
+	</definition>
+	
+	<definition name="courseView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseView.jsp" />
+	</definition>
+	
+	<definition name="courseViewE" extends="base.Login.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseViewE.jsp" />
+	</definition>
+	
+	<definition name="courseDayForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseDayForm.jsp" />
+	</definition>
+	
+	<definition name="courseDayList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/CourseDayList.jsp" />
+	</definition>
+	
+	<definition name="attendanceForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/AttendanceForm.jsp" />
+	</definition>
+	
+	<definition name="attendanceList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/AttendanceList.jsp" />
+	</definition>
+	
+	
+	
+
+</tiles-definitions>
